@@ -1,0 +1,394 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap 4.4.1 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Bootstrap JS + dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+  <main>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4 border-bottom border-secondary">
+      <div class="container">
+        <a class="navbar-brand font-weight-bold text-warning" href="#">
+          <span class="bg-warning text-dark px-3 py-2 rounded">SC</span>
+          <span class="h4">Sujal Chavan</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact me">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Stylish Divider -->
+    <div class="section-divider"></div>
+
+    <!-- Hero / Intro Section -->
+    <section class="intro-section bg-dark text-light py-5">
+      <div class="container">
+        <div class="row align-items-center text-center text-lg-left">
+
+          <!-- Profile Image -->
+          <div class="col-lg-5 mb-4 mb-lg-0 d-flex justify-content-center">
+            <img src="images/profile.jpg" alt="Profile" class="img-fluid rounded-circle shadow-lg profile-img">
+          </div>
+
+          <!-- Intro Text -->
+          <div class="col-lg-7">
+            <h1 class="display-4 font-weight-bold mb-3">
+              Hi, I'm <span class="text-warning">Sujal Chavan</span> 👋
+            </h1>
+            <p class="lead mb-4">
+              A passionate <span class="text-warning">Full-Stack Developer</span> who loves building
+              modern, scalable, and user-friendly web applications.
+              Always exploring <span class="text-info">React, Node.js, and AI-powered apps</span>.
+            </p>
+            <a href="#projects" class="btn btn-warning btn-lg shadow px-4 py-2 mr-2 mb-2">
+              🚀 View My Work
+            </a>
+            <a href="images/My_Resume.pdf" download="Sujal_Chavan_Resume.pdf"
+              class="btn btn-outline-light btn-lg shadow px-4 py-2 mb-2">
+              <i class="fas fa-download mr-2"></i> My Resume
+            </a>
+          </div>
+        </div>
+
+        <br><br><br>
+
+        <div id="Experience" class="my-5">
+          <!-- Heading -->
+          <h2 class="font-weight-bold text-warning mb-4">
+            💼 Experience
+          </h2>
+        </div>
+        <div class="timeline">
+
+          <!-- Internship 1 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h4 class="mb-1">Web Development Intern</h4>
+              <h6 class="text-muted">Xform Technologies Pvt.Ltd Pune · 01 Jun 2024 – 15 july 2024</h6>
+              <ul>
+                <li>Developed and deployed fully responsive websites using <b>HTML, CSS, and JavaScript</b>, improving
+                  cross-device compatibility by 30%.</li>
+                <li>Collaborated with UI/UX designers and backend engineers to deliver <b>client projects ahead of
+                    schedule</b>, ensuring high customer satisfaction.</li>
+                <li>Boosted website performance by <b>25%+</b> through image optimization, code refactoring, and best
+                  practices in SEO and accessibility.</li>
+              </ul>
+              <h6><a href="images/intern-certificate.pdf" target="_blank" class="btn btn-sm btn-primary mt-2">View
+                  Certificate</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+
+        <br><br><br>
+
+        <!-- 🔹 Project Cards Group (with heading) -->
+        <div id="projects" class="my-5">
+          <!-- Heading -->
+          <div id="projects" class="my-5">
+            <h2 class="font-weight-bold text-warning mb-4">
+              🚀 Projects
+            </h2>
+          </div>
+
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!-- Card 1 -->
+            <div class="col">
+              <div class="project-card h-40">
+                <img src="images/nexusairlines.png" class="card-img-top-project-img" alt="Nexus Airline">
+
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Airline Booking Website</h5>
+                  <p class="card-text flex-grow-1">
+                    A modern airline booking system offering seat selection, secure payments,
+                    and real-time flight management.
+                  </p>
+                  <br>
+                  <a href="https://chavansujal.github.io/Airline-management-system/" class="btn-primary"><b>View
+                      Project</b></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col">
+              <div class="project-card h-40">
+                <img src="images/ourtalks.png" class="card-img-top-project-img" alt="OurTalks Chat App">
+
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">OurTalks Chat App</h5>
+                  <p class="card-text flex-grow-1">
+                    A real-time chat application with login, sign-up, and messaging features,
+                    built using React and MongoDB.
+                  </p>
+                  <br>
+                  <a href="https://ourtalks.vercel.app/" class="btn-primary"><b>View Project</b></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col">
+              <div class="project-card h-40">
+                <img src="images/fitnesstracker.png" class="card-img-top-project-img" alt="Fitness Tracker">
+
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Fitness Tracker Website</h5>
+                  <p class="card-text flex-grow-1">
+                    A web-based fitness tracker that helps users log workouts, monitor progress,
+                    and stay motivated with personalized goals and insights.
+                  </p>
+
+                  <a href="http://localhost/fitness-tracker/main.php" class="btn-primary"><b>View Project</b></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- 🔹 End Cards Group -->
+        <br><br><br>
+        <section id="skills" class="my-5">
+          <div class="container">
+
+            <!-- Section Heading -->
+            <h2 class="font-weight-bold text-warning mb-5">
+              <i class="fas fa-code"></i> Skills & Technologies
+            </h2>
+
+            <!-- 🔹 Programming Languages -->
+            <h4 class="text-center text-light mb-4">
+              Programming Languages
+              <div class="underline mx-auto"></div>
+            </h4>
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fab fa-html5 fa-2x text-danger"></i>
+                  <h5 class="mt-3">HTML5</h5>
+                  <p>Markup language for web pages</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fab fa-css3-alt fa-2x text-primary"></i>
+                  <h5 class="mt-3">CSS3</h5>
+                  <p>Styling language for web design</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fab fa-js fa-2x text-warning"></i>
+                  <h5 class="mt-3">JavaScript</h5>
+                  <p>Language of the web</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fab fa-python fa-2x text-info"></i>
+                  <h5 class="mt-3">Python</h5>
+                  <p>High-level, versatile programming language</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fab fa-java fa-2x text-danger"></i>
+                  <h5 class="mt-3">Java</h5>
+                  <p>Popular for enterprise applications</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fas fa-code fa-2x text-primary"></i>
+                  <h5 class="mt-3">C++</h5>
+                  <p>Object-oriented programming language</p>
+                </div>
+              </div>
+
+              <!-- C -->
+              <div class="col-md-4 mb-4">
+                <div class="skill-card p-4 text-center">
+                  <i class="fas fa-copyright fa-2x text-primary"></i>
+                  <h5 class="mt-3">C</h5>
+                  <p>Powerful general-purpose programming language</p>
+                </div>
+              </div>
+
+              <!-- PHP -->
+              <div class="col-md-4 mb-4">
+                <div class="skill-card p-4 text-center">
+                  <i class="fab fa-php fa-2x text-purple"></i>
+                  <h5 class="mt-3">PHP</h5>
+                  <p>Server-side scripting language for web development</p>
+                </div>
+              </div>
+
+              <!-- XML -->
+              <div class="col-md-4 mb-4">
+                <div class="skill-card p-4 text-center">
+                  <i class="fas fa-code fa-2x text-warning"></i>
+                  <h5 class="mt-3">XML</h5>
+                  <p>Markup language for structured data exchange</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 🔹 Frameworks & Libraries -->
+            <h4 class="text-center text-light mt-5 mb-4">
+              Frameworks & Libraries
+              <div class="underline mx-auto"></div>
+            </h4>
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fab fa-react fa-2x text-info"></i>
+                  <h5 class="mt-3">React.js</h5>
+                  <p>Building modern UIs</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fab fa-node-js fa-2x text-success"></i>
+                  <h5 class="mt-3">Node.js</h5>
+                  <p>Server-side JavaScript runtime</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fas fa-server fa-2x text-warning"></i>
+                  <h5 class="mt-3">Express.js</h5>
+                  <p>Fast, minimalist backend framework</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fab fa-bootstrap fa-2x text-purple"></i>
+                  <h5 class="mt-3">Bootstrap</h5>
+                  <p>Responsive design framework</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 🔹 Databases -->
+            <h4 class="text-center text-light mt-5 mb-4">
+              Databases
+              <div class="underline mx-auto"></div>
+            </h4>
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="skill-card"><i class="fas fa-database fa-2x text-warning"></i>
+                  <h5 class="mt-3">MySQL</h5>
+                  <p>Relational database management system</p>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="skill-card"><i class="fas fa-leaf fa-2x text-success"></i>
+                  <h5 class="mt-3">MongoDB</h5>
+                  <p>NoSQL database for modern apps</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 🔹 Tools & Platforms -->
+            <h4 class="text-center text-light mt-5 mb-4">
+              Tools & Platforms
+              <div class="underline mx-auto"></div>
+            </h4>
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fab fa-git-alt fa-2x text-danger"></i>
+                  <h5 class="mt-3">Git</h5>
+                  <p>Version control system</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fab fa-github fa-2x text-light"></i>
+                  <h5 class="mt-3">GitHub</h5>
+                  <p>Code hosting & collaboration</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fas fa-code fa-2x text-info"></i>
+                  <h5 class="mt-3">VS Code</h5>
+                  <p>Lightweight code editor</p>
+                </div>
+              </div>
+              <!-- Android -->
+              <div class="col-md-4 mb-4">
+                <div class="skill-card p-4 text-center">
+                  <i class="fab fa-android fa-2x text-success"></i>
+                  <h5 class="mt-3">Android</h5>
+                  <p>Mobile application development platform</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fas fa-vial fa-2x text-warning"></i>
+                  <h5 class="mt-3">Postman</h5>
+                  <p>API testing tool</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="skill-card"><i class="fab fa-linux fa-2x text-success"></i>
+                  <h5 class="mt-3">Linux</h5>
+                  <p>Powerful development environment</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <div id="Contact me"></div>
+        <!-- Footer -->
+        <footer class="bg-dark text-light pt-5 pb-3">
+          <div class="container text-center">
+            <h5 class="text-warning mb-3">Contact Me</h5>
+            <p>Connect with me on social media:</p>
+            <div class="d-flex justify-content-center mb-3">
+              <!-- GitHub -->
+              <a href="https://github.com/Chavansujal" target="_blank" class="text-light mx-3 social-icon">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/sujal-chavan-672b982b4" target="_blank"
+                class="text-light mx-3 social-icon">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/sujalll_13?igsh=eWFobzJxZGNybG96" target="_blank"
+                class="text-light mx-3 social-icon">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </div>
+            <p class="mb-0">&copy; 2025 <span class="text-warning">Sujal Chavan</span>. All rights reserved.</p>
+          </div>
+        </footer>
+
+    </section>
+  </main>
+</body>
+
+</html>
