@@ -26,6 +26,7 @@
   overflow: hidden;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s ease-in-out;
+  background-color: #1c1f26;
 }
 
 .project-card:hover {
@@ -197,5 +198,6 @@ footer .social-icon:hover {
         padding: 10px 20px;
       }
     }
+
 
 
